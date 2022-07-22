@@ -16,8 +16,8 @@ spec:
   interval: 30s
   targetNamespace: production
   values:
-#    image:
-#     tag: 0.18.0
+    injector:
+      replicas: 1
     ingress:
       host: production.vault.192.168.72.104.nip.io
 
